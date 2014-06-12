@@ -3,7 +3,7 @@ package net.subaraki.commands;
 import org.pircbotx.hooks.events.MessageEvent;
 
 @SuppressWarnings("rawtypes")
-public class CommandAwesome implements Commands {
+public class CommandAwesome implements Commands<MessageEvent> {
 
 	@Override
 	public void exe(MessageEvent event) throws Exception {
